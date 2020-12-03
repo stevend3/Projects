@@ -16,7 +16,7 @@ int main() {
 
 // Implementation of the selection sort algorithm
 // Sorts from smallest to largest
-// Arguments:
+// Parameters:
 //  int a[]: array to be sorted
 //  int n: size of array to be sorted
 // Return: nothing
@@ -36,7 +36,7 @@ void selectionSort(int a[], int n) {
 }
 
 // Print an array
-// Arguments:
+// Parameters:
 //  int a[]: array to print
 //  int n: size of array to print
 // Returns: nothing
