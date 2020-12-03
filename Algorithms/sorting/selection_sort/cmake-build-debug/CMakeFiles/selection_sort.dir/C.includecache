@@ -6,9 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/Users/stevendiniz/Documents/Coding_Projects/Algorithms/collatz_conjuecture/main.c
+/Users/stevendiniz/Documents/GitHub/Projects/Algorithms/sorting/selection_sort/main.c
 stdio.h
--
-stdlib.h
 -
 

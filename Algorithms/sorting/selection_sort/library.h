@@ -1,0 +1,6 @@
+#ifndef SELECTION_SORT_LIBRARY_H
+#define SELECTION_SORT_LIBRARY_H
+
+void hello(void);
+
+#endif //SELECTION_SORT_LIBRARY_H

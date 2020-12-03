@@ -64,16 +64,16 @@ RM = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/stevendiniz/Documents/GitHub/Projects/Algorithms/collatz_conjuecture
+CMAKE_SOURCE_DIR = /Users/stevendiniz/Documents/GitHub/Projects/Algorithms/sorting/selection_sort
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/stevendiniz/Documents/GitHub/Projects/Algorithms/collatz_conjuecture/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/stevendiniz/Documents/GitHub/Projects/Algorithms/sorting/selection_sort/cmake-build-debug
 
 #=============================================================================
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: CMakeFiles/collatz_conjuecture.dir/all
+all: CMakeFiles/selection_sort.dir/all
 
 .PHONY : all
 
@@ -83,36 +83,36 @@ preinstall:
 .PHONY : preinstall
 
 # The main recursive "clean" target.
-clean: CMakeFiles/collatz_conjuecture.dir/clean
+clean: CMakeFiles/selection_sort.dir/clean
 
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/collatz_conjuecture.dir
+# Target rules for target CMakeFiles/selection_sort.dir
 
 # All Build rule for target.
-CMakeFiles/collatz_conjuecture.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/collatz_conjuecture.dir/build.make CMakeFiles/collatz_conjuecture.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/collatz_conjuecture.dir/build.make CMakeFiles/collatz_conjuecture.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/stevendiniz/Documents/GitHub/Projects/Algorithms/collatz_conjuecture/cmake-build-debug/CMakeFiles --progress-num=1,2 "Built target collatz_conjuecture"
-.PHONY : CMakeFiles/collatz_conjuecture.dir/all
+CMakeFiles/selection_sort.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/selection_sort.dir/build.make CMakeFiles/selection_sort.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/selection_sort.dir/build.make CMakeFiles/selection_sort.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/stevendiniz/Documents/GitHub/Projects/Algorithms/sorting/selection_sort/cmake-build-debug/CMakeFiles --progress-num=1,2 "Built target selection_sort"
+.PHONY : CMakeFiles/selection_sort.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/collatz_conjuecture.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/stevendiniz/Documents/GitHub/Projects/Algorithms/collatz_conjuecture/cmake-build-debug/CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/collatz_conjuecture.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/stevendiniz/Documents/GitHub/Projects/Algorithms/collatz_conjuecture/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/collatz_conjuecture.dir/rule
+CMakeFiles/selection_sort.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/stevendiniz/Documents/GitHub/Projects/Algorithms/sorting/selection_sort/cmake-build-debug/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/selection_sort.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/stevendiniz/Documents/GitHub/Projects/Algorithms/sorting/selection_sort/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/selection_sort.dir/rule
 
 # Convenience name for target.
-collatz_conjuecture: CMakeFiles/collatz_conjuecture.dir/rule
+selection_sort: CMakeFiles/selection_sort.dir/rule
 
-.PHONY : collatz_conjuecture
+.PHONY : selection_sort
 
 # clean rule for target.
-CMakeFiles/collatz_conjuecture.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/collatz_conjuecture.dir/build.make CMakeFiles/collatz_conjuecture.dir/clean
-.PHONY : CMakeFiles/collatz_conjuecture.dir/clean
+CMakeFiles/selection_sort.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/selection_sort.dir/build.make CMakeFiles/selection_sort.dir/clean
+.PHONY : CMakeFiles/selection_sort.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

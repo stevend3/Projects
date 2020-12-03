@@ -68,10 +68,10 @@ RM = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/stevendiniz/Documents/GitHub/Projects/Algorithms/collatz_conjuecture
+CMAKE_SOURCE_DIR = /Users/stevendiniz/Documents/GitHub/Projects/Algorithms/sorting/selection_sort
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/stevendiniz/Documents/GitHub/Projects/Algorithms/collatz_conjuecture/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/stevendiniz/Documents/GitHub/Projects/Algorithms/sorting/selection_sort/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -100,9 +100,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/stevendiniz/Documents/GitHub/Projects/Algorithms/collatz_conjuecture/cmake-build-debug/CMakeFiles /Users/stevendiniz/Documents/GitHub/Projects/Algorithms/collatz_conjuecture/cmake-build-debug/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/stevendiniz/Documents/GitHub/Projects/Algorithms/sorting/selection_sort/cmake-build-debug/CMakeFiles /Users/stevendiniz/Documents/GitHub/Projects/Algorithms/sorting/selection_sort/cmake-build-debug/CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/stevendiniz/Documents/GitHub/Projects/Algorithms/collatz_conjuecture/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/stevendiniz/Documents/GitHub/Projects/Algorithms/sorting/selection_sort/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -131,17 +131,17 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named collatz_conjuecture
+# Target rules for targets named selection_sort
 
 # Build rule for target.
-collatz_conjuecture: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 collatz_conjuecture
-.PHONY : collatz_conjuecture
+selection_sort: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 selection_sort
+.PHONY : selection_sort
 
 # fast build rule for target.
-collatz_conjuecture/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/collatz_conjuecture.dir/build.make CMakeFiles/collatz_conjuecture.dir/build
-.PHONY : collatz_conjuecture/fast
+selection_sort/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/selection_sort.dir/build.make CMakeFiles/selection_sort.dir/build
+.PHONY : selection_sort/fast
 
 main.o: main.c.o
 
@@ -149,7 +149,7 @@ main.o: main.c.o
 
 # target to build an object file
 main.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/collatz_conjuecture.dir/build.make CMakeFiles/collatz_conjuecture.dir/main.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/selection_sort.dir/build.make CMakeFiles/selection_sort.dir/main.c.o
 .PHONY : main.c.o
 
 main.i: main.c.i
@@ -158,7 +158,7 @@ main.i: main.c.i
 
 # target to preprocess a source file
 main.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/collatz_conjuecture.dir/build.make CMakeFiles/collatz_conjuecture.dir/main.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/selection_sort.dir/build.make CMakeFiles/selection_sort.dir/main.c.i
 .PHONY : main.c.i
 
 main.s: main.c.s
@@ -167,7 +167,7 @@ main.s: main.c.s
 
 # target to generate assembly for a file
 main.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/collatz_conjuecture.dir/build.make CMakeFiles/collatz_conjuecture.dir/main.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/selection_sort.dir/build.make CMakeFiles/selection_sort.dir/main.c.s
 .PHONY : main.c.s
 
 # Help Target
@@ -178,7 +178,7 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... collatz_conjuecture"
+	@echo "... selection_sort"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

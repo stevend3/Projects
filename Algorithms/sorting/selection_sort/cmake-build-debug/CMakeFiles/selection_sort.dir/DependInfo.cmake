@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/Users/stevendiniz/Documents/GitHub/Projects/Algorithms/collatz_conjuecture/main.c" "/Users/stevendiniz/Documents/GitHub/Projects/Algorithms/collatz_conjuecture/cmake-build-debug/CMakeFiles/collatz_conjuecture.dir/main.c.o"
+  "/Users/stevendiniz/Documents/GitHub/Projects/Algorithms/sorting/selection_sort/main.c" "/Users/stevendiniz/Documents/GitHub/Projects/Algorithms/sorting/selection_sort/cmake-build-debug/CMakeFiles/selection_sort.dir/main.c.o"
   )
 set(CMAKE_C_COMPILER_ID "AppleClang")
 
