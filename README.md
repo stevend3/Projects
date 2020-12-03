@@ -1,2 +1,2 @@
 # Projects
-This repo is full of my personal projects
+This repo is full of small personal projects
