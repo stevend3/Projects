@@ -1,3 +1,0 @@
-/Users/stevendiniz/Documents/Coding_Projects/Algorithms/collatz_conjuecture/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/Users/stevendiniz/Documents/Coding_Projects/Algorithms/collatz_conjuecture/cmake-build-debug/CMakeFiles/edit_cache.dir
-/Users/stevendiniz/Documents/Coding_Projects/Algorithms/collatz_conjuecture/cmake-build-debug/CMakeFiles/collatz_conjuecture.dir
